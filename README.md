@@ -22,7 +22,7 @@ self.requestParamDict['jsonParams'] = []
 
 界面右侧的列表即参数正则，可实时增删，删除只需单击列表元素再点击删除按钮即可。
 
-![](https://github.com/theLSA/burp-sensitive-param-extractor/raw/master/demo/bspe00.jpg)
+![](https://github.com/theLSA/burp-sensitive-param-extractor/raw/master/demo/bspe00.png)
 
 ## 反馈
 
