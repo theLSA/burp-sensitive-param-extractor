@@ -16,3 +16,4 @@ flag
 filename
 idcard
 authcode
+nickname

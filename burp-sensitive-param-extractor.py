@@ -40,11 +40,11 @@ class BurpExtender(IBurpExtender, ITab,IHttpListener):
     def registerExtenderCallbacks(self, callbacks):
         self._callbacks = callbacks
         self._helpers = callbacks.getHelpers()
-        callbacks.setExtensionName("burp-sensitive-params-extractor")
+        callbacks.setExtensionName("burp-sensitive-param-extractor")
         self._stdout = PrintWriter(callbacks.getStdout(), True)
         callbacks.registerHttpListener(self)
         #callbacks.registerMessageEditorTabFactory(self)
-        print 'burp-sensitive-params-extractor loaded.\nAuthor:LSA\nhttps://github.com/theLSA/burp-sensitive-params-extractor'
+        print 'burp-sensitive-param-extractor loaded.\nAuthor:LSA\nhttps://github.com/theLSA/burp-sensitive-param-extractor'
 
 
         self.sensitiveParamR = getParamRegular()
