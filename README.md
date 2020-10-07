@@ -4,6 +4,8 @@
 
 检测并提取请求参数中的敏感参数名，如userid，username，方便测试越权漏洞，并形成敏感参数字典。
 
+关于该插件具体的实现细节，参考[burpsuite插件开发总结](https://www.lsablog.com/networksec/penetration/burpsuite-plugin-development/)
+
 ## 快速开始
 
 param-regular.cfg：参数正则配置文件，id表示请求参数中包含id的参数，如userid，idcard等。
