@@ -4,7 +4,7 @@
 
 检测并提取请求参数中的敏感参数名，如userid，username，方便测试越权漏洞，并形成敏感参数字典。
 
-关于该插件具体的实现细节，参考[burpsuite插件开发总结](https://www.lsablog.com/networksec/penetration/burpsuite-plugin-development/)
+关于该插件的实现细节，参考[burpsuite插件开发总结](https://www.lsablog.com/networksec/penetration/burpsuite-plugin-development/)
 
 ## 快速开始
 
