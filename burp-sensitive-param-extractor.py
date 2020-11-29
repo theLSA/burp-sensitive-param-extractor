@@ -18,7 +18,7 @@ paramRegularFile = "param-regular.cfg"
 
 sensitiveParamsFile = "sensitive-params.txt"
 
-# 获取配置文件内容
+# get paramRegualrList from paramRegularFile
 def getParamRegular():
     paramRegularList = []
     with open(paramRegularFile, 'r') as prf:
